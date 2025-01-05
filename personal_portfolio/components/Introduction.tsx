@@ -1,4 +1,3 @@
-import { GitlabIcon as GitHub, Linkedin, Mail } from 'lucide-react'
 
 export default function Introduction() {
   return (
