@@ -9,7 +9,7 @@ export default function Header() {
           <li><Link href="#skills" className="text-gray-800 hover:text-blue-600">Skills</Link></li>
           <li><Link href="#projects" className="text-gray-800 hover:text-blue-600">Projects</Link></li>
           <li><Link href="#contact" className="text-gray-800 hover:text-blue-600">Contact</Link></li>
-          <li><a href="../Aneesh Resume 2025 -SF.pdf" className="text-gray-800 hover:text-blue-600">Resume</a></li>
+          <li><Link href="../Aneesh Resume 2025 -SF.pdf" target='_blank' className="text-gray-800 hover:text-blue-600">Resume</Link></li>
         </ul>
       </nav>
     </header>
