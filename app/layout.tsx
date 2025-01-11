@@ -13,11 +13,11 @@ const geistMono = localFont({
     weight: "100 900",
 });
 
-const kalamRegular = localFont({
-    src: "./fonts/Kalam-Regular.ttf",
-    variable: "--font-kalam-regular",
-    weight: "100 900",
-});
+// const kalamRegular = localFont({
+//     src: "./fonts/Kalam-Regular.ttf",
+//     variable: "--font-kalam-regular",
+//     weight: "100 900",
+// });
 
 export const metadata: Metadata = {
     openGraph: {
@@ -41,7 +41,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${kalamRegular.variable} ${kalamRegular.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
                 {children}
             </body>
