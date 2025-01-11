@@ -7,6 +7,10 @@
   opacity: 0.9;
 }
 
+.super-dark-blue-background {
+  background: rgb(21, 25, 158)
+}
+
 .headerColor {
   background: rgb(38, 17, 170);
   opacity: 0.9;

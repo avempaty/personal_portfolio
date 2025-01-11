@@ -8,7 +8,7 @@ export default function Skills() {
       <h2 className="text-3xl font-bold text-center mb-10 text-white">Skills</h2>
       <div className="flex flex-wrap justify-center gap-4">
         {skills.map((skill, index) => (
-          <span key={index} className="bg-blue-800 text-white px-3 py-1 rounded-full text-sm">
+          <span key={index} className="border border-white text-white px-3 py-1 rounded-full text-sm">
             {skill}
           </span>
         ))}
