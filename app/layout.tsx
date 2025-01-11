@@ -20,6 +20,8 @@ const geistMono = localFont({
 // });
 
 export const metadata: Metadata = {
+  title: "Aneesh Vempaty",
+  description: "Aneesh Vempaty's personal portfolio",
     openGraph: {
         type: "website",
         url: "https://aneeshvempaty.com",
