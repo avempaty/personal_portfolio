@@ -1,7 +1,14 @@
-import { ExternalLink, GitlabIcon as GitHub } from 'lucide-react'
+import { ExternalLink, GitlabIcon as Github } from 'lucide-react'
 
 export default function Projects() {
   const projects = [
+    {
+      title: "NannyNet",
+      description: "\"LinkedIn for Nannys.\" A web application designed with the goal of connecting parents with certified and highly-rated nannies for different childcare services.",
+      github: "https://github.com/DraftMate/nannynet",
+      img: "/images/NannyNet.png",
+    },
+
     {
       title: "Vibe",
       description: "An interactive web application that uses Spotify API for sharing music. The application looks similar to Instagram for desktop and contains a user base, song collection, and ability to listen to music.",
@@ -14,6 +21,12 @@ export default function Projects() {
       github: "https://github.com",
       live: "https://perspective-499af.firebaseapp.com",
       img: "/images/Perspective.png"
+    },
+    {
+      title: "Tech News Bot",
+      description: "A discord bot that sends everyday news on latest technology and software.",
+      github: "https://github.com/avempaty/discord-bot",
+      img: "/images/TechNewsBot.png",
     },
     {
       title: "Uberlytics",
@@ -33,11 +46,11 @@ export default function Projects() {
             <img src={project.img} className="w-full h-49 object-cover mb-4 rounded-lg" />
             <p className="text-gray-300 mb-4">{project.description}</p>
             <div className="flex space-x-4">
-              <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-600">
-                <GitHub size={20} />
+              <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+                <Github size={20} />
               </a>
             {project.live?  (
-              <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-600">
+              <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
               <ExternalLink size={20} />
             </a>
             ) : null}
